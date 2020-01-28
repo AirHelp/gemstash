@@ -1,8 +1,7 @@
-FROM ruby:2.3
-MAINTAINER devops@airhelp.com
+FROM ruby:2.6
 
 ENV RACK_ENV production
-ENV GEMSTASH_VERSION=1.0.3
+ENV GEMSTASH_VERSION=2.0.0
 
 EXPOSE 9292
 
